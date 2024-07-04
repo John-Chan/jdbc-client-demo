@@ -7,6 +7,6 @@ spring:
     # 数据库驱动,默认根据jdbc-url自动识别
     #driver-class-name: com.mysql.jdbc.Driver
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://${DB_HOST:10.11.12.233}:${DB_PORT:55436}/${DB_NAME:test}
-    username: ${DB_USER:xxx}
-    password: ${DB_PASSWORD:xxx}
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
